@@ -328,6 +328,10 @@ POST /api/Analysis
 
 4. Ещё раз вызвать тот же метод для того же `StudentId` и `assignmentId` (можно с тем же файлом).
 5. Вызвать:
+## Запуск через Docker
+
+```bash
+docker compose up --build
 
    ```http
    GET /api/works/1/reports
